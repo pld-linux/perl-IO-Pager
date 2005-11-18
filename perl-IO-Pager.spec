@@ -8,13 +8,13 @@
 Summary:	IO::Pager - Select a pager, optionally pipe output if destination is a TTY
 Summary(pl):	IO::Pager - wybór programu stronicuj±cego lub potoku je¶li celem jest TTY
 Name:		perl-IO-Pager
-Version:	0.05
+Version:	0.06
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
-# Source0-md5:	d1a891930d7020c7d85b433c84daf403
+# Source0-md5:	dda54801e176089d9b93e05dc07324a4
 URL:		http://search.cpan.org/dist/IO-Pager/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
