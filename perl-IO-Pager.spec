@@ -6,7 +6,7 @@
 %define		pdir	IO
 %define		pnam	Pager
 Summary:	IO::Pager - Select a pager, optionally pipe output if destination is a TTY
-Summary(pl.UTF-8):   IO::Pager - wybór programu stronicującego lub potoku jeśli celem jest TTY
+Summary(pl.UTF-8):	IO::Pager - wybór programu stronicującego lub potoku jeśli celem jest TTY
 Name:		perl-IO-Pager
 Version:	0.06
 Release:	1
