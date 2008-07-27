@@ -9,7 +9,7 @@ Summary:	IO::Pager - Select a pager, optionally pipe output if destination is a 
 Summary(pl.UTF-8):	IO::Pager - wybór programu stronicującego lub potoku jeśli celem jest TTY
 Name:		perl-IO-Pager
 Version:	0.06
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
