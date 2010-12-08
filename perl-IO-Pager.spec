@@ -13,7 +13,7 @@ Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
+Source0:	http://www.cpan.org/modules/by-module/IO/%{pdir}-%{pnam}-%{version}.tgz
 # Source0-md5:	dda54801e176089d9b93e05dc07324a4
 URL:		http://search.cpan.org/dist/IO-Pager/
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -50,5 +50,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %{perl_vendorlib}/IO/Pager
-%{perl_vendorlib}/IO/*.pm
-%{_mandir}/man3/*
+%{perl_vendorlib}/IO/Pager.pm
+%{_mandir}/man3/IO::Pager*.3pm*
